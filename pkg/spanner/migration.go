@@ -174,4 +174,3 @@ func inspectStatementsKind(statements []string) (statementKind, error) {
 		return "", errors.New("DDL, DML (INSERT), and partitioned DML (UPDATE or DELETE) must not be combined in the same migration file")
 	}
 }
-
